@@ -1,0 +1,23 @@
+{
+    "name": "cientifico",
+    "version": "1.0.0",
+    "description": "Single page aplication",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode production  ",
+        "start": "webpack-dev-server --open --mode development"
+    },
+    "keywords": [
+        "js"
+    ],
+    "author": "Brayan Ramirez <brayanraph42@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "babel-loader": "^8.2.2",
+        "html-webpack-plugin": "^4.5.2",
+        "webpack": "^5.52.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^4.2.1"
+    }
+}
